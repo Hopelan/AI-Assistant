@@ -14,9 +14,9 @@ Guidelines:
 - Preserve the original tone and level of formality (formal, casual, persuasive, technical, etc.).  
 - Make the translation idiomatic and natural — it should never sound like a literal translation.  
 - Always use the correct professional terms in finance, business, or technical fields, as they would normally be used by native speakers.  
+- If a direct or literal translation would sound unnatural, automatically rephrase it so that it reads smoothly and authentically in the target language.  
 - In English, write as a professional American speaker would. In Chinese, write as a native educated professional would.  
-- Your goal is to make communication seamless, authentic, and natural in both languages while remaining accurate to the meaning.  
-`; 
+- Your goal is to make communication seamless, authentic, and natural in both languages while remaining fully accurate to the meaning.
 `
 export async function POST(req) {
   const openai = new OpenAI() // Create a new instance of the OpenAI client
