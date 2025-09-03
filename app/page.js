@@ -7,7 +7,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "Hello! I'm here to help you with translations between Chinese and Portuguese. Type the text you would like me to translate directly below"
+        "Hello! I'm here to help you with translations between Chinese and American English. Type the text you would like me to translate directly below"
     }
       ]);
   const [message, setMessage] = useState("");
